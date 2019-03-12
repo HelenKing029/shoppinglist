@@ -29,6 +29,10 @@ while True:
 	elif new_item == "SHOW":
 		show_list()
 		continue
+	elif new_item == "REMOVE":
+		shopping_list.pop()
+		show_list()
+		continue
 
 	add_to_list(new_item)
 
