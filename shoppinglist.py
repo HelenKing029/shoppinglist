@@ -3,9 +3,10 @@ shopping_list = []
 def show_help():
 	print("What should we pick up from the store?")
 	print("""
-	Enter 'DONE' to stop adding items.
-	Enter 'HELP' for this help.
-	Enter 'SHOW' for your current shopping list.
+	~ Enter 'DONE' to stop adding items.
+	~ Enter 'HELP' for this help.
+	~ Enter 'SHOW' for your current shopping list.
+	~ Enter 'REMOVE' to delete the last item.
 	""")
 
 def add_to_list(item):
